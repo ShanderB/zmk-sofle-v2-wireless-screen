@@ -69,11 +69,11 @@
 
         Setaa {
             bindings = <
-&none           &kp HOME        &kp END         &none            &none  &none                  &none  &none        &none  &none  &none  &kp BACKSPACE
-&none           &kp LEFT_ARROW  &kp UP_ARROW    &none            &none  &none                  &none  &none        &none  &none  &none  &none
-&kp LEFT_SHIFT  &none           &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none                  &none  &none        &none  &none  &none  &kp DEL
-&kp LCTRL       &none           &none           &none            &none  &none  &none    &none  &none  &none        &none  &none  &none  &none
-                                &none           &none            &none  &none  &none    &none  &none  &bootloader  &none  &none
+&none           &kp HOME        &kp END         &none            &none  &none                  &none  &none  &none  &none  &none  &kp BACKSPACE
+&none           &kp LEFT_ARROW  &kp UP_ARROW    &none            &none  &none                  &none  &none  &none  &none  &none  &none
+&kp LEFT_SHIFT  &none           &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none                  &none  &none  &none  &none  &none  &kp DEL
+&kp LCTRL       &none           &none           &none            &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
+                                &none           &none            &none  &none  &none    &none  &none  &none  &none  &none
             >;
 
             label = "Seta";
