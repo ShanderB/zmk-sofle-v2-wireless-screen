@@ -28,6 +28,7 @@
             bindings = <&tog 3>;
             key-positions = <54 41>;
             layers = <0>;
+            timeout-ms = <50>;
         };
     };
 
