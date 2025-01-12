@@ -18,7 +18,7 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 3500
 
 &mmv {
-    time-to-max-speed-ms = <400>; // Time to reach maximum speed (default 500)
+    time-to-max-speed-ms = <2000>; // Time to reach maximum speed (default 500)
 };
 
 
