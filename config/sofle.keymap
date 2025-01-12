@@ -15,6 +15,12 @@
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
+#define U_MOUSE_MOVE_MAX 1400
+
+&mmv {
+    time-to-max-speed-ms = <400>; // Time to reach maximum speed (default 500)
+};
+
 
 / {
     // Activate ADJUST layer by pressing raise and lower
