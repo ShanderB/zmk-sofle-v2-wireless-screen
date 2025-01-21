@@ -21,7 +21,6 @@
     time-to-max-speed-ms = <600>; // Time to reach maximum speed (default 500)
 };
 
-
 / {
     // Activate ADJUST layer by pressing raise and lower
 
@@ -102,11 +101,11 @@
 
         Mousee {
             bindings = <
-&trans          &none           &tog 3          &none            &none            &none                          &none  &none  &none  &none  &none  &none
-&mkp MB2        &mmv MOVE_LEFT  &mmv MOVE_UP    &msc SCRL_UP     &none            &none                          &none  &none  &none  &none  &none  &none
-&mkp MB1        &none           &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none            &none                          &none  &none  &none  &none  &none  &none
-&msc SCRL_DOWN  &none           &none           &msc SCRL_LEFT   &msc SCRL_RIGHT  &kp ENTER  &trans      &trans  &none  &none  &none  &none  &none  &none
-                                &none           &msc SCRL_RIGHT  &mkp MB4         &mkp MB3   &mkp MB5    &none   &none  &none  &none  &none
+&trans          &none           &tog 3          &none            &none     &none                           &none  &none  &none  &none  &none  &none
+&mkp MB2        &mmv MOVE_LEFT  &mmv MOVE_UP    &msc SCRL_UP     &none     &kp RETURN                      &none  &none  &none  &none  &none  &none
+&mkp MB1        &none           &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none     &none                           &none  &none  &none  &none  &none  &none
+&msc SCRL_DOWN  &none           &none           &msc SCRL_LEFT   &none     &none       &trans      &trans  &none  &none  &none  &none  &none  &none
+                                &none           &msc SCRL_RIGHT  &mkp MB4  &mkp MB3    &mkp MB5    &none   &none  &none  &none  &none
             >;
 
             label = "Mouse";
