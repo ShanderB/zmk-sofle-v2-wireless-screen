@@ -33,7 +33,7 @@
             bindings = <&tog 3>;
             key-positions = <54 41>;
             layers = <0>;
-            timeout-ms = <150>;
+            timeout-ms = <350>;
         };
     };
 
@@ -101,11 +101,11 @@
 
         Mousee {
             bindings = <
-&trans          &none           &tog 3          &none            &msc SCRL_LEFT  &msc SCRL_RIGHT                      &none  &none  &none  &none  &none  &none
-&mkp MB2        &mmv MOVE_LEFT  &mmv MOVE_UP    &msc SCRL_UP     &none           &kp RETURN                           &none  &none  &none  &none  &none  &none
-&mkp MB1        &none           &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none           &none                                &none  &none  &none  &none  &none  &none
-&msc SCRL_DOWN  &none           &none           &none            &none           &none            &trans      &trans  &none  &none  &none  &none  &none  &none
-                                &none           &none            &mkp MB4        &mkp MB3         &mkp MB5    &none   &none  &none  &none  &none
+&trans          &none           &tog 3          &none            &msc SCRL_LEFT  &msc SCRL_RIGHT                      &none   &none  &none   &none   &none   &trans
+&mkp MB2        &mmv MOVE_LEFT  &mmv MOVE_UP    &msc SCRL_UP     &none           &kp RETURN                           &none   &none  &none   &none   &none   &trans
+&mkp MB1        &none           &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none           &none                                &none   &none  &none   &none   &none   &none
+&msc SCRL_DOWN  &none           &none           &none            &none           &none            &trans      &trans  &none   &none  &none   &none   &trans  &trans
+                                &none           &none            &mkp MB4        &mkp MB3         &mkp MB5    &none   &trans  &none  &trans  &trans
             >;
 
             label = "Mouse";
